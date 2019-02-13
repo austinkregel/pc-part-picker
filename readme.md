@@ -1,4 +1,4 @@
-# What is pc-part-picker?
+# What is @kbco/pcpartpicker?
 This is mean to be a super dynamic library for querying against the undocumented API that PC Part Picker has.
 
 Right now only the following part types are supported: `cpu`, `cpu cooler`, `motherboard`, `memory`, `storage`, `video card`, `power supply`, and `case`.
@@ -17,13 +17,10 @@ then somewhere in you script
 
 Using async/await
 ```js
-const partPicker = require('pc-part-picker');
+const partPicker = require('@kbco/pcpartpicker');
 
 let queryPartPicker = async (type) => await partPicker.query(partPicker.constants.urls[type], partPicker.constants[type])
-    .then(parts => {
-        console.log(parts)
-    })
-
+  
 let searchPartPicker = async (type, query) => await partPicker.search(type, query)
 
 console.log(searchPartPicker('cpu', 'Ryzen'))
@@ -31,7 +28,7 @@ console.log(searchPartPicker('cpu', 'Ryzen'))
 Using promises
 
 ```js
-const partPicker = require('pc-part-picker');
+const partPicker = require('@kbco/pcpartpicker');
 
 function queryPartPicker (type) { 
     return partPicker.query(partPicker.constants.urls[type], partPicker.constants[type])
