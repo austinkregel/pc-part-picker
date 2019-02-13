@@ -1,0 +1,14 @@
+{
+  "name": "pc-part-picker",
+  "version": "0.0.1",
+  "description": "An unofficial client for the 2019 PC part picker api",
+  "main": "index.js",
+  "repository": "https://github.com/austinkregel/pc-part-picker",
+  "author": "Austin Kregel",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jsdom": "^13.2.0"
+  }
+}
