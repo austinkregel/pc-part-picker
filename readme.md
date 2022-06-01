@@ -44,11 +44,6 @@ searchPartPicker('cpu', 'Ryzen')
     })
 ```
 
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/austinkregel/pc-part-picker/badge.svg?style=beer-square)](https://beerpay.io/austinkregel/pc-part-picker)  [![Beerpay](https://beerpay.io/austinkregel/pc-part-picker/make-wish.svg?style=flat-square)](https://beerpay.io/austinkregel/pc-part-picker?focus=wish)
-
 # Proper Mappings
 So this is a little bit tricky. I'll do my best to explain.
 
